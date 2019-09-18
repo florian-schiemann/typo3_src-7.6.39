@@ -1,0 +1,5 @@
+<f:if condition="{model.showElement}">
+	<li class="csc-form-{model.elementCounter} csc-form-element csc-form-element-{model.elementTypeLowerCase}">
+		<f:format.html parseFuncTSPath="lib.parseFunc">{model.additionalArguments.content}</f:format.html>
+	</li>
+</f:if>
